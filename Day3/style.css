@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --blue: #074583;
+    
+  } 
+
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    color: var(--blue);
+}
+
+#wrapper{
+   
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#column-1{
+    
+     float:left;
+     width:auto;
+     padding: 1rem;
+     padding-top: 0px;
+
+ }
+
+ #column-2{
+     
+     float: left;
+     border-left:3px solid var(--blue);;
+     height: auto;
+     width: auto;
+     padding:1.3rem;
+     padding-top: 0px;
+}
+
+ fieldset{
+     
+     border: .2rem solid var(--blue);
+     height:auto;
+     max-width:700px;
+     margin:auto;
+    
+     
+
+ }
+ legend{
+    
+     width:13rem;
+     text-align: center;
+     font-weight: 600;
+     
+}
+
+ #name{
+     font-size: 30px;
+     line-height: 20px;
+     margin:10px 0px 10px 0px;
+ }
+#name-span{
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+p{
+    font-size: 14px;
+   
+    margin-top: 5px;;
+    margin-bottom: 1.5rem;
+}
+
+h3{
+    margin-top:0px;
+    margin-bottom: .2rem;
+}
+
+ul{
+    
+    padding-left:.7rem;
+    margin-top:5px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;;
+}
+h4{
+    font-size: 15px;
+    margin-top:0px;
+    margin-bottom: .2rem;
+    
+}
+
+
+#exerience-place{
+    font-size: 14px;
+  
+    font-weight: lighter;
+    margin-bottom: .2rem;
+}
+
+.mt-4{
+    padding-top:62px;
+}
