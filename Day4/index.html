@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            margin: 14vh auto;
+            max-width: 400px;;
+        }
+       .rim{
+           height: 400px;
+           width: 400px;
+           background-color: red;
+           border-radius: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           box-shadow: 0 0 5px 3px rgba(112, 112, 114, 0.664);
+       }
+       .inner-body{
+           height: 360px;
+           width: 360px;
+           background-color: #fff;
+           border-radius: 50%;
+           position: absolute;
+           box-shadow: 0 0 5px 3px rgba(112, 112, 114, 0.664);
+       }
+
+       .hour{
+           
+           width: 6px;
+        background-color: #000;
+           position: absolute;
+           left: 49%;
+           bottom: 50%;
+           margin: auto;
+           height: 150px;
+           transform: rotate(112deg);
+           transform-origin: 0 100%;
+       }
+       .minute{
+           
+           width: 4px;
+        background-color: #000;
+           position: absolute;
+           left: 49%;
+           bottom: 50%;
+           margin: auto;
+           height: 150px;
+           transform: rotate(180deg);
+           transform-origin: 0 100%;
+       }
+       .second{
+           
+           width: 2px;
+        background-color: #000;
+           position: absolute;
+           left: 49%;
+           bottom: 50%;
+           margin: auto;
+           height: 150px;
+           transform: rotate(65deg);
+           transform-origin: 0 100%;
+       }
+
+    </style>
+    <title>Day 4 THA</title>
+</head>
+<body>
+    <section class="container">
+    <div class="rim">
+        <div class="inner-body">
+            <div class="hour"></div>
+            <div class="minute"></div>
+            <div class="second"></div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
